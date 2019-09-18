@@ -12,6 +12,7 @@ class login : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
+        //Botão que passa para a tela inicial
         login.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             // start your next activity
